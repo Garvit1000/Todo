@@ -83,9 +83,7 @@ Tasks
 
     GET /api/tasks: Retrieve all tasks.
     POST /api/tasks: Create a new task.
-    PUT /api/tasks/:id: Update a task by ID.
-    DELETE /api/tasks/:id: Delete a task by ID.
-
+    
 Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
