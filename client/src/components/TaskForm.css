@@ -1,0 +1,30 @@
+form {
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    background-color: #fff;
+  }
+  
+  form input[type="text"] {
+    background: #f7f7f7; 
+    border: 1px solid #ccc; 
+    padding: 8px;
+    display: block;
+    width: 100%;
+    color: #333; 
+    border-radius: 5px;
+    outline: none; 
+  }
+  
+  form button {
+    background-color: #61DAFB; 
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 32px;
+    width: 30px;
+    color: #fff; 
+    outline: none; 
+  }
+  

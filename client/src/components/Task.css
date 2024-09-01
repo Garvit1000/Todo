@@ -1,0 +1,38 @@
+div.tasklist {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+  }
+  
+  div.tasklist svg {
+    height: 20px;
+    margin-right: 10px;
+    fill: #61DAFB;
+  }
+  
+  div.tasklist.done {
+    opacity: 0.7; 
+    text-decoration: line-through;
+  }
+  
+  button.trash {
+    background: none;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button.trash svg {
+    height: 20px;
+  }
+  
+  button.trash:hover svg path {
+    fill: #FF0000; 
+  }
+  

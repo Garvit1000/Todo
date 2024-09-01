@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5; /* Light background color */
+  color: #333;
+}
+
+.navbar {
+  background-color: #3b5998; /* Dark blue color */
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.app-container h1 {
+  text-align: center;
+  color: #3b5998;
+  margin-bottom: 30px;
+}
+
+.app-background {
+  background-image: url('https://www.transparenttextures.com/patterns/light-wool.png'); /* Light patterned background */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}

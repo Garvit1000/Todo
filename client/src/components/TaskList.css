@@ -1,0 +1,39 @@
+.tasklist-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #464545;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .tasklist-input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tasklist-input-container input[type="text"] {
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    color: #333;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .tasklist-input-container button {
+    background-color: #61DAFB;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin-left: 10px;
+    color: #fff;
+    outline: none;
+  }
+  
+  .tasklist-input-container button:hover {
+    background-color: #51c1e1;
+  }
+  
