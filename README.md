@@ -1,9 +1,9 @@
 MERN To-Do List Application
 
-This is a full-stack To-Do List application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The application allows users to add, delete tasks.
+This is a full-stack To-Do List application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The application allows users to add,edit, delete tasks.
 Features
 
-    Task Management: Users can add, delete tasks.
+    Task Management: Users can add, edit ,delete tasks.
     Responsive UI: The user interface is designed to be responsive and user-friendly.
     Cross-Origin Resource Sharing (CORS): Proper CORS setup for secure API requests.
 
