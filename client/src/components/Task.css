@@ -1,4 +1,3 @@
-/* Task.css */
 
 .tasklist {
   display: flex;
@@ -12,14 +11,14 @@
 }
 
 .tasklist.done {
-  background-color: #d4edda; /* Light green for completed tasks */
-  color: #155724; /* Dark green text for completed tasks */
+  background-color: #d4edda; 
+  color: #155724; 
   text-decoration: line-through;
 }
 
 .tasklist:not(.done) {
-  background-color: #f8d7da; /* Light red for incomplete tasks */
-  color: #721c24; /* Dark red text for incomplete tasks */
+  background-color: #f8d7da; 
+  color: #721c24; 
 }
 
 .tasklist div {
@@ -64,7 +63,7 @@
 }
 
 .trash:hover svg {
-  fill: #ff0000; /* Red color when hovering over the delete button */
+  fill: #ff0000; 
 }
 
 .tasklist input[type="text"] {
