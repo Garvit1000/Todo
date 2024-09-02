@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Task from './Task';
+import EditTask from './EditTask'; 
 import './TaskList.css';
 
 const TaskList = () => {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
+  const [editingTaskId, setEditingTaskId] = useState(null); 
 
   const fetchTasks = async () => {
     try {
@@ -31,6 +33,14 @@ const TaskList = () => {
     }
   };
 
+  const startEditingTask = (taskId) => {
+    setEditingTaskId(taskId);
+  };
+
+  const cancelEdit = () => {
+    setEditingTaskId(null);
+  };
+
   useEffect(() => {
     fetchTasks();
   }, []);
@@ -47,7 +57,21 @@ const TaskList = () => {
         <button onClick={addTask}>Add Task</button>
       </div>
       {tasks.map((task) => (
-        <Task key={task._id} task={task} fetchTasks={fetchTasks} />
+        <div key={task._id}>
+          {editingTaskId === task._id ? (
+            <EditTask 
+              task={task} 
+              fetchTasks={fetchTasks} 
+              cancelEdit={cancelEdit} 
+            />
+          ) : (
+            <Task 
+              task={task} 
+              fetchTasks={fetchTasks} 
+              startEditingTask={startEditingTask} 
+            />
+          )}
+        </div>
       ))}
     </div>
   );

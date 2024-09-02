@@ -1,0 +1,37 @@
+
+.edit-task-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .edit-task-form input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-task-form button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    background-color: #61dafb;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-task-form button[type="button"] {
+    background-color: #ccc;
+  }
+  
+  .edit-task-form button:hover {
+    background-color: #21a1f1;
+  }
+  
+  .edit-task-form button[type="button"]:hover {
+    background-color: #bbb;
+  }
+  
